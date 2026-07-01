@@ -54,6 +54,7 @@ npm run start
 engse203-lab01/
 ├── src/
 │   └── hello.js
+├── f001.png
 ├── package.json
 └── README.md
 ```
