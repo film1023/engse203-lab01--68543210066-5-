@@ -1,22 +1,26 @@
 # 💻 ENGSE203 LAB 01 — Developer Environment & Git/GitHub
 
 ## 👤 ผู้จัดทำ
-* **ชื่อ-นามสกุล:** <ใส่ชื่อ-นามสกุลของคุณ เช่น ธีรนัย ...>
+* **ชื่อ-นามสกุล:** <นายธีรนัย ไชยกันทะ>
 * **รหัสนักศึกษา:** `68543210066-5`
 * **ระบบปฏิบัติการที่ใช้:** 🐧 Linux (WSL 2 - Ubuntu 24.04) on Windows
 
 ---
 
 ## 🎯 วัตถุประสงค์ของงาน
-* เพื่อเตรียมความพร้อมของสภาพแวดล้อมในการพัฒนาซอฟต์แวร์ (Developer Environment)
-* เพื่อฝึกฝนการใช้คำสั่งพื้นฐานของ Git และการทำงานร่วมกับคลาวด์บน GitHub ผ่านโปรโตคอล SSH
+* ตรวจสอบและใช้ Node.js, npm, Visual Studio Code และ Git จาก Terminal ได้
+* สร้างโครงงาน JavaScript ขนาดย่อม พร้อม package.json และ npm script
+* รันโปรแกรม Node.js ที่แสดงชื่อ รหัสนักศึกษา OS และ Node.js version ได้
+* สร้าง GitHub repository, commit, push และจัดทำ README เพื่อเป็นหลักฐานการเรียนรู้ได้
 
 ---
 
 ## 🛠️ เครื่องมือที่ใช้
 * **Code Editor:** Visual Studio Code
-* **Runtime:** Node.js v18.19.1
+* **Runtime:** Node.js v18.19.1 และ npm
 * **Version Control:** Git & WSL (Ubuntu-24.04)
+* **Git:** บัญชี GitHub ที่ใช้งานได้
+* **Internet**
 
 ---
 
@@ -25,6 +29,7 @@
 
 ```bash
 # รันโปรแกรม NodeJS เพื่อแสดงผลลัพธ์
+npm install
 npm run start
 ```
 
@@ -46,7 +51,7 @@ engse203-lab01/
 
 > 💡 **คำแนะนำสำหรับคุณ:** ให้พิมพ์คำสั่ง `npm run start` ใน VS Code อีกครั้ง แล้วแคปภาพผลลัพธ์ที่ขึ้นคำว่า "Hello ..." มาวางแทนที่ลิงก์ภาพด้านล่างนี้ หรือพิมพ์ข้อความผลลัพธ์ใส่แทนได้เลยครับ
 
-![ผลลัพธ์การรันโปรแกรม](https://unsplash.com)
+![ผลลัพธ์การรันโปรแกรม](f001.png)
 
 ---
 
